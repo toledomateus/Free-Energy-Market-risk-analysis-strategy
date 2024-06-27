@@ -6,11 +6,11 @@ Generation, consumption, and commercialization agents belonging to the Free Cont
 
 However, the Electric Energy Market is dynamic both in the broad sense (due to, for example, risk factors involving generation – e.g., natural weather conditions – as well as the fluidity present in energy consumption – e.g., economic recession) and in the strict sense (due to risks present in the daily operation of the company to which the agent belongs).
 
-Thus, the contract management of these agents needs parameters to analyze if the portfolio is sufficient to meet short-term demands (e.g., to avoid being burdened by the Brazilian Commercial Company if the Estimate Hourly Cost is costly) and long-term demands (to ensure advantageous and safe negotiations for their company, for example).
+Thus, the contract management of these agents needs parameters to analyze if the portfolio is sufficient to meet short-term demands (e.g., to avoid being burdened by the Brazilian Commercial Company if the estimated hourly cost is costly) and long-term demands (to ensure advantageous and safe negotiations for their company, for example).
 
 # Solution to the Problem
 
-One of the existing tools to support the contract management of these agents is the use of risk indicators present in their respective portfolios. These risks are measured through statistical analyses, performing a normal distribution of the current contracts in the portfolio, which allows examining their dispersion and consequently, the efficiency of the portfolio.
+One of the existing tools to support the contract management of these agents is the use of risk indicators present in their respective portfolios. These risks are measured through statistical analyses, performing a normal distribution of the current contracts in the portfolio, which allows for examining their dispersion and consequently, the efficiency of the portfolio.
 
 Moreover, considering the increasing demand for computational use to carry out activities as well as the digitalization of contracts in the electric sector, this repository proposes to build a tool to analyze digital electric energy contracts on a platform integrated with the electric energy market, in this case, SYDLE ONE.
 
@@ -25,7 +25,7 @@ Every entity in SYDLE ONE follows the concept of classes present in Object-Orien
 
 Thus, the identity would be the representative name of the class. The attributes would be the structures of the information present in the class; in the case of SYDLE ONE, these would be its fields (each with an identifier and an associated type – text, number, date, boolean, script, etc.). Finally, the methods would be the functionalities or behaviors that the class can execute.
 
-Therefore, all entities related to the contract portfolio were modeled according to the schema below. Note that the Portfolio entity comprises several contracts, which describe their to be like, counterpart, submarket, modulation type, duration period, MWmed values, and the MWh price.
+Therefore, all entities related to the contract portfolio were modeled according to the schema below. Note that the Portfolio entity comprises several contracts, which describe their be-like, counterpart, submarket, modulation type, duration period, MWmed values, and the MWh price.
 
 ![class-diagram-1](assets/images/uml-1.png)
 
@@ -53,7 +53,7 @@ To establish the indices in a portfolio for a type of agent, a process was model
 
 The process begins with the contract manager specifying which portfolio will be calculated. If the manager is of the consumer or generator type, they indicate the minimum and maximum values (of generation or consumption) and the volatility to be used for the projection.
 
-![start-process](assets/images/risk-analysis-process.png)
+![start-process](assets/images/start-process.png)
 
 
 From this stage, a sequence of scripts begins, which will be explained and represented by the algorithm below.
