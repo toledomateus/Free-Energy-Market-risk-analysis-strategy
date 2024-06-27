@@ -1,5 +1,7 @@
 ![cover](assets/images/cover.png)
 
+If you want to consult the full paper, please [click here](http://bib.pucminas.br:8080/pergamumweb/vinculos/000092/00009251.pdf).
+
 # Problem Description
 
 Generation, consumption, and commercialization agents belonging to the Free Contracting Environment do not have a prior contract with the State determining the value of the energy consumed and/or generated. Instead, to meet their demand, they need to establish contracts among themselves, freely negotiated between the parties, where prices, terms, volumes, and security clauses are established.
